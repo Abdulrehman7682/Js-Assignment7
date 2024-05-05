@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#buttons button {
+    min-width: 48%;
+}
+
+@media screen and (max-width:766px) {
+    #buttons button {
+        min-width: 40%;
+    }
+}
+
+@media screen and (max-width:556px) {
+    #buttons button {
+        min-width: 90%;
+    }
+}
+
+#Output {
+    height: 265px;
+}
